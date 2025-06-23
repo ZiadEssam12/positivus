@@ -10,10 +10,10 @@ export const Hero = () => {
           <h1 className="text-center lg:text-left">
             Navigating the digital landscape for success
           </h1>
-          <p className="hero-text text-center lg:text-left">
+          <p className="text text-center lg:text-left text-balance">
             Our digital marketing agency helps businesses grow and succeed
             online through a range of services including SEO, PPC, social media
-            marketing, and content creation.
+            marketing, <br /> and content creation.
           </p>
 
           <div className="flex justify-center lg:justify-start">

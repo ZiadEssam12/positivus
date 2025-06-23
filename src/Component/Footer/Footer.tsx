@@ -19,7 +19,7 @@ export const Footer = () => {
             <Link
               key={index}
               href={link.link}
-              className="hero-text text-white underline underline-offset-3"
+              className="text-lg text-white underline underline-offset-3"
             >
               {link.name}
             </Link>
@@ -80,7 +80,7 @@ export const Footer = () => {
       {/* bottom */}
       <div className="border-t-[1px] border-white pt-[50px] flex flex-col sm:flex-row items-center gap-4 sm:gap-10">
         <p>© 2023 Positivus. All Rights Reserved.</p>
-        <p className="underline underline-offset-2">Privacy Policy</p>
+        <p className="underline underline-offset-1">Privacy Policy</p>
       </div>
     </footer>
   );
