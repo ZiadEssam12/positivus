@@ -7,15 +7,15 @@ import { Facebook, Linkedin, Twitter } from "@/Icons/Icons";
 
 export const Footer = () => {
   return (
-    <footer className="rounded-t-[45px] pt-[55px] px-4 sm:px-8 lg:px-[60px] pb-[50px] bg-dark flex flex-col gap-y-[50px] text-white">
-      <div className="flex flex-col gap-[66px]">
+    <footer className="rounded-t-[45px] pt-[55px] px-4 sm:px-8 lg:px-[60px] pb-[20px] lg:pb-[50px] bg-dark flex flex-col gap-y-[20px] lg:gap-y-[50px] text-white">
+      <div className="flex flex-col gap-[30px] lg:gap-[66px]">
         {/* head */}
         <div className="h-auto lg:h-[30px] flex flex-col lg:flex-row justify-between items-center gap-6 lg:gap-0">
           <div className="text-white w-[180px] order-1 lg:order-none">
             <Logo />
           </div>
 
-          <div className="flex flex-col sm:flex-row items-center gap-4 sm:gap-6 lg:gap-10 order-3 lg:order-none">
+          <div className="flex flex-col lg:flex-row items-center gap-4 sm:gap-6 lg:gap-10 order-3 lg:order-none">
             {navLinks.map((link, index) => (
               <Link
                 key={index}
@@ -79,7 +79,7 @@ export const Footer = () => {
               placeholder="Email"
             />
 
-            <button className="btn-primary !text-black !bg-green w-full sm:w-auto">
+            <button className="btn-primary !text-black !bg-green w-full  sm:w-auto">
               Subscribe to news
             </button>
           </div>
@@ -87,7 +87,7 @@ export const Footer = () => {
       </div>
 
       {/* bottom */}
-      <div className="text-lg leading-[28px] border-t-[1px] border-white pt-[50px] flex flex-col sm:flex-row items-center gap-4 sm:gap-10">
+      <div className="text-lg leading-[28px] border-t-[1px] border-white pt-[20px] lg:pt-[50px] flex flex-col sm:flex-row items-center gap-4 sm:gap-10">
         <p>© 2023 Positivus. All Rights Reserved.</p>
         <p className="underline underline-offset-1">Privacy Policy</p>
       </div>

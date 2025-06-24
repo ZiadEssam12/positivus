@@ -91,16 +91,8 @@ body {
   }
 
   .btn-primary {
-    padding: 20px 35px;
-    border-radius: 14px;
-    font-size: 20px;
-    line-height: 28px;
-    display: flex;
-    justify-items: center;
-    align-items: center;
-    gap: 10px;
-    background-color: var(--color-dark);
-    color: var(--color-grey);
+    @apply text-[14px] lg:text-lg flex justify-center items-center gap-2.5 
+    leading-[28px] py-5 px-[35px] rounded-[14px] bg-dark text-grey;
   }
 
   .card {

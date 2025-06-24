@@ -30,7 +30,7 @@ export const services = [
 
     title1: "Social Media",
     title2: "Marketing",
-    titleBg: "bg-green",
+    titleBg: "bg-white",
 
     iconColor: "text-black",
     iconBg: "bg-white",

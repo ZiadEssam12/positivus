@@ -5,7 +5,7 @@ import { services } from "@/Constants/services";
 
 export const Services = () => {
   return (
-    <div className="flex flex-col gap-[80px]">
+    <div className="flex flex-col gap-y-20">
       {/* head */}
       <div className="flex flex-col lg:flex-row items-start lg:items-center gap-3 lg:gap-10 w-fit">
         <h2 className="bg-green rounded-[7px] px-[7px]">Services</h2>
