@@ -51,7 +51,7 @@ body {
   h4,
   h5,
   h6 {
-    @apply font-medium;
+    @apply font-medium leading-[100%];
   }
 
   h1 {

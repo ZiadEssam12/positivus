@@ -71,8 +71,8 @@ export const services = [
     title2: "Tracking",
     titleBg: "bg-green",
 
-    iconColor: "text-green",
-    iconBg: "bg-black",
+    iconColor: "text-black",
+    iconBg: "bg-white",
 
     image:
       "tokyo-volumetric-analytics-of-different-types-in-web-browsers 2.png",

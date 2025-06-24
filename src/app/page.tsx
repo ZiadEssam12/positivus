@@ -8,15 +8,12 @@ import { TrustedBy } from "@/Component/TrustedBy";
 export default function Home() {
   return (
     <>
-      <Header />
       <Hero />
       <TrustedBy />
-
+      {/* placeHolder */}
+      <section />
       <Services />
-
       <Contact />
-
-      <Footer />
     </>
   );
 }

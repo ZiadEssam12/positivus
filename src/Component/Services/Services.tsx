@@ -5,17 +5,17 @@ import { services } from "@/Constants/services";
 
 export const Services = () => {
   return (
-    <div>
+    <div className="flex flex-col gap-[80px]">
       {/* head */}
       <div className="flex flex-col lg:flex-row items-start lg:items-center gap-3 lg:gap-10 w-fit">
         <h2 className="bg-green rounded-[7px] px-[7px]">Services</h2>
-        <p className="text-balance">
+        <p className="text-balance leading-[100%]">
           At our digital marketing agency, we offer a range of services to help
           businesses grow and succeed online. These services include:
         </p>
-      </div>{" "}
+      </div>
       {/* services list */}
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-10 mt-[30px]">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
         {services.map((service, index) => (
           <div key={index} className={`card ${service.cardBg}`}>
             <div className="info">
@@ -30,7 +30,7 @@ export const Services = () => {
                     <ArrowTopRight />
                   </span>
                 </div>
-                <span className={`text-lg leading-[28px] ${service.textColor}`}>
+                <span className={`text-xl leading-[28px] ${service.textColor}`}>
                   Learn more
                 </span>
               </div>

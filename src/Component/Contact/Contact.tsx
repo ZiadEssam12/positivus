@@ -3,11 +3,11 @@ import React from "react";
 
 export const Contact = () => {
   return (
-    <div className="h-auto lg:h-[347px] rounded-[25px] sm:rounded-[35px] lg:rounded-[45px] px-4 sm:px-8 lg:px-[60px] gap-6 sm:gap-12 lg:gap-[100px] bg-grey flex flex-col lg:flex-row justify-between items-center overflow-visible py-8 lg:py-0">
+    <div className="h-auto lg:h-[347px] rounded-[25px] sm:rounded-[35px] lg:rounded-[45px] px-4 sm:px-8 my-[23px] lg:px-[60px] gap-[26px] sm:gap-12 lg:gap-[100px] bg-grey flex flex-col lg:flex-row justify-between items-center overflow-visible py-8 lg:py-0">
       {/* left */}
       <div className="flex-1 flex flex-col justify-center items-center lg:items-start text-center lg:text-left gap-4 lg:gap-[26px] w-full lg:h-full">
         <h3>Let&apos;s make things happen</h3>
-        <p className="max-w-md lg:max-w-none">
+        <p className="max-w-md lg:max-w-none leading-6">
           Contact us today to learn more about how our digital marketing
           services can help your business grow and succeed online.
         </p>
