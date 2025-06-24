@@ -11,6 +11,7 @@ export const TrustedBy = () => {
           className="w-full h-full grayscale"
           width={0}
           height={0}
+          loading="lazy"
         />
       </div>
       <div>
@@ -20,6 +21,7 @@ export const TrustedBy = () => {
           className="w-full h-full grayscale"
           width={0}
           height={0}
+          loading="lazy"
         />
       </div>
       <div>
@@ -29,6 +31,7 @@ export const TrustedBy = () => {
           className="w-full h-full grayscale"
           width={0}
           height={0}
+          loading="lazy"
         />
       </div>
       <div>
@@ -38,6 +41,7 @@ export const TrustedBy = () => {
           className="w-full h-full grayscale"
           width={0}
           height={0}
+          loading="lazy"
         />
       </div>
       <div>
@@ -47,6 +51,7 @@ export const TrustedBy = () => {
           className="w-full h-full grayscale"
           width={0}
           height={0}
+          loading="lazy"
         />
       </div>
       <div>
@@ -56,6 +61,7 @@ export const TrustedBy = () => {
           className="w-full h-full grayscale"
           width={0}
           height={0}
+          loading="lazy"
         />
       </div>
     </div>

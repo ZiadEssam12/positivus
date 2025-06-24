@@ -27,6 +27,7 @@ export const Hero = () => {
             src="./illustration1.svg"
             alt="hero illustration"
             fill
+            priority
             loading="eager"
             className="object-contain"
           />

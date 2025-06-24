@@ -1,9 +1,8 @@
 import { navLinks } from "@/Constants/navLinks";
-import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import { Logo } from "../Logo";
-import { MobileNav } from "./MobileNav";
+import { MobileNavWrapper } from "./MobileNavWrapper";
 
 export const Header = () => {
   return (
@@ -30,7 +29,7 @@ export const Header = () => {
       </nav>
 
       {/* Mobile Navigation */}
-      <MobileNav />
+      <MobileNavWrapper />
     </header>
   );
 };

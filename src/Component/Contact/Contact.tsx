@@ -24,6 +24,7 @@ export const Contact = () => {
           alt="Contact"
           width={0}
           height={0}
+          loading="lazy"
           className="object-contain w-full h-auto max-w-[200px] sm:max-w-[280px] md:max-w-[320px] lg:max-w-[359px] lg:max-h-[359px] mx-auto lg:mx-0"
         />
       </div>

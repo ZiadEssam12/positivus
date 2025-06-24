@@ -1,9 +1,9 @@
-import React from "react";
+import React, { memo } from "react";
 import Image from "next/image";
 import { ArrowTopRight } from "@/Icons/Icons";
 import { services } from "@/Constants/services";
 
-export const Services = () => {
+export const Services = memo(() => {
   return (
     <div className="flex flex-col gap-y-20">
       {/* head */}
@@ -42,6 +42,7 @@ export const Services = () => {
                 width={210}
                 height={166}
                 className="w-full h-full object-contain"
+                loading="lazy"
               />
             </div>
           </div>
@@ -49,4 +50,6 @@ export const Services = () => {
       </div>
     </div>
   );
-};
+});
+
+Services.displayName = "Services";
